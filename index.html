@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Q With US</title>
+</head>
+<body>
+    <header>
+        <!-- 왼쪽 home 글씨를 클릭하면 첫 페이지로 돌아옴 -->
+        <a id="home" href="index.html">home</a>
+        <div id="main_img">
+            <img src="image/main_header.jpg" alt="흰 바탕에 크레파스로 그린 무지개 그림">
+            <h1 id="main_title">Welcome, Now <span id="special">Q With US</span>!</h1>
+        </div>
+    </header>
+    <div class="grid">
+        <div class = "목차">
+        <a href="about.html"> <h2>About Me</h2> </a>
+        <a href="interests.html"> <h2>My Interests</h2> </a>
+        <a href="love.html"> <h2>My Love</h2> </a>
+    </div>
+    <div class = "내용">
+        <h2>주제: 여기에 주제 적을래여</h2>
+        <hr>
+        <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://q-with-us.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</body>
+</html>
